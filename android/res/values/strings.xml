@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jellyfish Survival</string>
+
+    <string name="settings_menu_name">Settings</string>
+    <string name="settings_menu_music">Game music</string>
+    <string name="settings_menu_sound">Game sound</string>
+
+    <string name="record_menu_name">Top score</string>
+    <string name="record_menu_score_label">High score:</string>
+    <string name="record_menu_score_value">%.1f m</string>
+    <string name="record_menu_bubble_label">Bubbles collected:</string>
+    <string name="record_menu_game_label">Games played:</string>
+
+    <string name="credits_menu_name">Credits</string>
+    <string name="credits_menu_authors">This game was created by:\n\nIvan Stelmakh</string>
+
+    <string name="app_play_link">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="share_text">Join me in this cool game!</string>
+
+    <string name="email_chooser_text">Choose an Email client:</string>
+    <string name="email_address">jellyfish-survival@gmail.com</string>
+    <string name="email_title">Feedback from game</string>
+
+</resources>

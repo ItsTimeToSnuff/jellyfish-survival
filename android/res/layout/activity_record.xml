@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background_blur"
+    tools:context=".RecordActivity">
+
+    <TextView
+        android:id="@+id/record_menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/neuropol"
+        android:text="@string/record_menu_name"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/record_menu_score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/record_menu_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/neuropol"
+        android:text="@string/record_menu_score_label"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_menu_score_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record_menu_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/neuropol"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_menu_bubbles_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/record_menu_score_label"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/neuropol"
+        android:text="@string/record_menu_bubble_label"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_menu_bubble_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record_menu_score_value"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/neuropol"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_menu_game_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/record_menu_bubbles_label"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/neuropol"
+        android:text="@string/record_menu_game_label"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_menu_game_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record_menu_bubble_value"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/neuropol"
+        android:textAllCaps="true"
+        android:textColor="#9AFFFF"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/record_menu_clear_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/record_menu_game_label"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/selector_delete" />
+
+    <ImageButton
+        android:id="@+id/record_menu_back_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/selector_back" />
+
+
+</RelativeLayout>
